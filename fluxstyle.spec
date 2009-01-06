@@ -1,6 +1,6 @@
 Name:           fluxstyle
 Version:        1.0.1
-Release:        %mkrel 2
+Release:        %mkrel 3
 Summary:        A graphical style manager for Fluxbox
 
 Group:          Graphical desktop/Other
@@ -70,5 +70,5 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/%{name}/images/*.png
 %{_datadir}/%{name}/images/none.jpg
 %{_datadir}/icons/hicolor/48x48/apps/fluxmetal.png
-%{python_sitelib}/fluxstyle-1.0.1-py2.5.egg-info
+%{python_sitelib}/fluxstyle-%{version}-py%{py_ver}.egg-info
 %{_datadir}/applications/Mandriva-fluxstyle.desktop
