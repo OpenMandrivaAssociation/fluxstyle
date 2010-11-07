@@ -52,23 +52,8 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(-,root,root,-)
 %doc docs/Changelog docs/LICENSE docs/README
 %{_bindir}/fluxStyle
-
-%dir %{python_sitelib}/%{name}
-%dir %{_datadir}/%{name}
-%dir %{_datadir}/%{name}/glade/
-%dir %{_datadir}/%{name}/images/
-%dir %{_datadir}/icons/hicolor/48x48/apps
-
-%{python_sitelib}/%{name}/parseConfig.py
-%{python_sitelib}/%{name}/errorMessage.py
-%{python_sitelib}/%{name}/findStyles.py
-%{python_sitelib}/%{name}/__init__.py
-%{python_sitelib}/%{name}/*.pyc
-%{python_sitelib}/%{name}/*.pyo
-
-%{_datadir}/%{name}/glade/main.glade
-%{_datadir}/%{name}/images/*.png
-%{_datadir}/%{name}/images/none.jpg
+%{python_sitelib}/%{name}
+%{python_sitelib}/%{name}-%{version}-py%{py_ver}.egg-info
+%{_datadir}/%{name}
 %{_datadir}/icons/hicolor/48x48/apps/fluxmetal.png
-%{python_sitelib}/fluxstyle-%{version}-py%{py_ver}.egg-info
 %{_datadir}/applications/Mandriva-fluxstyle.desktop
