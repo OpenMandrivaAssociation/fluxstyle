@@ -1,6 +1,6 @@
 Name:           fluxstyle
 Version:        1.0.1
-Release:        %mkrel 4
+Release:        %mkrel 5
 Summary:        A graphical style manager for Fluxbox
 
 Group:          Graphical desktop/Other
