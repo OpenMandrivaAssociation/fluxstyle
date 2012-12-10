@@ -1,0 +1,9 @@
+[Desktop Entry]
+Encoding=UTF-8
+Type=Application
+Name=Fluxstyle
+Comment=Graphical style manager for fluxbox
+TryExec=fluxStyle
+Exec=fluxStyle
+Icon=fluxmetal
+Categories=Application;Settings;GTK;System;Utility;

@@ -57,3 +57,27 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/%{name}
 %{_datadir}/icons/hicolor/48x48/apps/fluxmetal.png
 %{_datadir}/applications/Mandriva-fluxstyle.desktop
+
+
+%changelog
+* Sun Nov 07 2010 Jani Välimaa <wally@mandriva.org> 1.0.1-5mdv2011.0
++ Revision: 594783
+- rebuild for python 2.7
+
+* Fri Sep 11 2009 Thierry Vignaud <tv@mandriva.org> 1.0.1-4mdv2010.0
++ Revision: 437560
+- rebuild
+
+* Tue Jan 06 2009 Funda Wang <fwang@mandriva.org> 1.0.1-3mdv2009.1
++ Revision: 325203
+- rebuild
+
+* Thu Aug 07 2008 Thierry Vignaud <tv@mandriva.org> 1.0.1-2mdv2009.0
++ Revision: 266814
+- rebuild early 2009.0 package (before pixel changes)
+
+* Thu Jun 05 2008 Jérôme Soyer <saispo@mandriva.org> 1.0.1-1mdv2009.0
++ Revision: 215940
+- import fluxstyle
+
+
