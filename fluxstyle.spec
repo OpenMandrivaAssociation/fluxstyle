@@ -5,7 +5,7 @@ Summary:        A graphical style manager for Fluxbox
 
 Group:          Graphical desktop/Other
 License:        GPL
-URL:            http://fluxstyle.berlios.de
+URL:            https://fluxstyle.berlios.de
 Source0:        http://errr-online.com/%{name}/%{version}/%{name}-%{version}.tar.bz2
 Source1:        fluxstyle.desktop
 
